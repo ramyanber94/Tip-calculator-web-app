@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip calculator</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="./function.js"  defer ></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="txtFeild">
+            <h1>Tip calculator</h1>
+            <div class="input">
+                <span class="input-group-addon">$</span>
+                <input  type="number" class="txtTip">
+            </div> </br>
+            <div class="tipField">
+                <span class="input-group-addon">Tip%</span>
+                <!-- <input type="range"   value="0"> -->
+                <input type="text" id="textInput" value="">
+                <input type="range" class="form-control" id="tipRange" name="rangeInput" min="0%" max="100%" onchange="updateTextInput(this.value);">
+            </div>
+            <button onclick="myFunction()">Click me</button>
+        </div>
+        <div class="tipAmountField" >
+            <span class="input-group-addon">Tip Amount:</span>
+        </div>
+        <div class="totalBill">
+            <span class="input-group-addon">Total Bill Amount:</span>
+        </div>
+    </div>
+  
+
+</body>
+
+</html>

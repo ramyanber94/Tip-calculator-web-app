@@ -1,0 +1,33 @@
+.container {
+  border: inset;
+  width: 30%;
+  margin: 0 auto;
+  height: 600px;
+}
+h1 {
+  font-style: italic;
+  font-size: xxx-large;
+}
+.totalBill {
+  padding-left: 8%;
+  padding-top: 5%;
+}
+.tipAmountField {
+  padding-left: 8%;
+  padding-top: 5%;
+}
+.txtFeild {
+  text-align: center;
+  padding-top: 24%;
+}
+span {
+  font-size: large;
+}
+input {
+  width: 50%;
+  height: 32px;
+}
+
+.totalbillInput {
+  width: 40%;
+}
